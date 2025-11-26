@@ -36,7 +36,7 @@ if st.button("Generate Content"):
         3. A highly engaging version
         """
 
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-pro")
         response = model.generate_content(base_prompt)
 
         st.subheader("✨ Output")
